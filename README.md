@@ -1,12 +1,70 @@
-# React + Vite
+# React Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio website built using React and SCSS, featuring smooth GSAP animations and a modern user interface.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live Demo :   
+---
 
-## Expanding the ESLint configuration
+## 📌 Project Overview
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is a personal **React-based portfolio website** created as a practice project to improve frontend development skills.  
+It showcases my skills, projects, education, and contact details in a clean and interactive way.
+
+The website includes smooth scroll-based animations using **GSAP ScrollTrigger** and is fully responsive across desktops, tablets, and mobile devices.
+
+---
+
+## 🚀 Features
+
+- Responsive layout for all screen sizes
+- Smooth animations using GSAP ScrollTrigger
+- Skills section with animated progress bars
+- Projects showcase with live demo links
+- Education & certifications section
+- Contact form layout
+- Clean and modern UI design
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **JavaScript (ES6+)**
+- **SCSS**
+- **HTML5**
+- **CSS3**
+- **GSAP (ScrollTrigger)**
+
+---
+
+## 🎯 Purpose of This Project
+
+- Practice React component structure
+
+- Improve SCSS styling and responsiveness
+
+- Learn GSAP scroll-based animations
+
+- Build a real-world portfolio project
+
+---
+
+## 📬 Contact
+
+**Name:** Lokesh K
+
+**Email:** kempegowdalokesh1431@gmail.com
+
+**LinkedIn:** https://www.linkedin.com/in/lokesh-k-990496378/
+
+**GitHub:** https://github.com/Lokesh-Soft-Dev
+
+---
+
+## 📄 License
+
+_This project is for learning and personal use._
+
+© 2025 Lokesh K. All rights reserved.
