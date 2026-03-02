@@ -1,0 +1,1191 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-padding: 121px;
+}
+
+.Sass .header {
+    position: fixed;
+    top: 0;
+    height: 11vh;
+    left: 0;
+    width: 100%;
+    padding: 25px 11%;
+    background: rgba(56, 52, 52, 0.247);
+    backdrop-filter: blur(60px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.Sass .logo {
+    font-size: 25px;
+    margin-left: -2em;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.Sass .navbar a{
+    font-size: 18px;
+    color: white;
+    margin: 0 15px;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+.Sass .navbar a:hover,
+.Sass .navbar a.active {
+    color: white;
+    border-bottom: 3px solid orangered;
+    text-decoration-color: #00ffea;
+    text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 15px #00ffea;
+}
+
+.Sass .contact {
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.Sass .contact:hover {
+    background-color: orangered;
+    box-shadow: 0 0 25px orangered;
+    color: white;
+    box-shadow: 0 0 15px #00ffea, 0 0 10px #00ffea, 0 0 15px #00ffea;
+}
+
+.Sass #home {
+    width: 100%;
+    min-height: 101vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6em;
+    text-align: justify;
+    padding: 30px 10%;
+}
+
+.Sass .home-content {
+    max-width: 888px;
+}
+
+.Sass .home-content h3 {
+    font-size: 38px;
+}
+
+.Sass .home-content h1 {
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.Sass .home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.Sass .btn-box .btn-1 {
+    padding: 11px 28px;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 11px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    color: black;
+    margin-left: 1em;
+    margin-top: 6em;
+    box-shadow: 0 0 15px #00ffea, 0 0 10px #00ffea, 0 0 15px #00ffea;
+}
+
+.Sass .btn-1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.Sass span {
+    color: orangered;
+}
+
+.Sass .img-box img {
+    border-radius: 66em;
+    width: 363px;
+    height: 60vh;
+    box-shadow: 0 0 20px 11px;
+}
+
+.Sass #Skills fieldset {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.Sass #Skills .left {
+    float: left;
+    width: 50%;
+}
+
+.Sass #Skills span img {
+    height: 3.5vh;
+    margin-left: 0.5em;
+}
+
+.Sass #Skills .right {
+    float: right;
+    width: 50%;
+}
+
+.Sass #Skills .skill {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.Sass #Skills .skill-title {
+    padding-top: 1%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Sass #Skills .skill-bar {
+    width: 96%;
+    margin-left: 2%;
+    background-color: whitesmoke;
+    height: 20px;
+    border-radius: 100px;
+    align-content: center;
+}
+
+.Sass #Skills .skill-fill {
+    background-color: green;
+    height: 20px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Sass #Skills .skill-percent {
+    color: white;
+    font-size: 15px;
+}
+
+.Sass #Skills .html {
+    animation: html 6s;
+    width: 90%;
+}
+
+@keyframes html {
+    0% {
+        width: 0.2%;
+    }
+
+    20% {
+        width: 1%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.Sass #Skills .CSS {
+    animation: CSS 6s;
+    width: 90%;
+}
+
+@keyframes CSS {
+    0% {
+        width: 0.2%;
+    }
+
+    20% {
+        width: 1%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.Sass #Skills .Sass {
+    animation: Sass 6s;
+    width: 80%;
+}
+
+@keyframes Sass {
+    0% {
+        width: 0.2%;
+    }
+
+    20% {
+        width: 1%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.Sass #Skills .Javascript {
+    animation: Javascript 6s;
+    width: 80%;
+}
+
+@keyframes Javascript {
+    0% {
+        width: 0.2%;
+    }
+
+    20% {
+        width: 1%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.Sass #Skills .React {
+    animation: React 6s;
+    width: 85%;
+}
+
+@keyframes React {
+    0% {
+        width: 0.2%;
+    }
+
+    20% {
+        width: 1%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+.Sass #Skills .Github {
+    animation: Github 6s;
+    width: 90%;
+}
+
+@keyframes Github {
+    0% {
+        width: 0.2%;
+    }
+
+    20% {
+        width: 1%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.Sass #Skills .Bootstrap {
+    animation: Bootstrap 6s;
+    width: 70%;
+}
+
+@keyframes Bootstrap {
+    0% {
+        width: 0.2%;
+    }
+
+    20% {
+        width: 1%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.Sass #Skills .Tailwind {
+    animation: Tailwind 6s;
+    width: 60%;
+}
+
+@keyframes Tailwind {
+    0% {
+        width: 0.2%;
+    }
+
+    20% {
+        width: 1%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.Sass #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 8%;
+    gap: 11em;
+    background: black;
+    margin-top: 0.5em;
+}
+
+.Sass .about-img img {
+    position: relative;
+    width: 333px;
+    height: 55vh;
+    box-shadow: 0 0 25px white,
+        0 0 50px white;
+    border-radius: 66em;
+}
+
+.Sass .about-content h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.Sass .about-content h3 {
+    font-size: 42px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.Sass .about-content p {
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+    text-align: justify;
+}
+
+.Sass .btn-exp {
+    padding: 11px 28px;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 11px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: 12em;
+    margin-top: 2em;
+    box-shadow: 0 0 15px #00ffea, 0 0 10px #00ffea, 0 0 15px #00ffea;
+}
+
+.Sass .btn-exp:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+/* Education Section */
+#education {
+    padding: 3.3rem;
+    background: whitesmoke;
+
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .edu-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2.2rem;
+
+        .edu-item {
+            background: whitesmoke;
+            border-radius: 11px;
+            box-shadow: 27px 27px 16px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.9);
+                box-shadow: 0 0 10px rgba(26, 68, 68, 0.856), 0 0 20px rgba(29, 94, 94, 0.664);
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &::before {
+                    content: "🎓";
+                    margin-right: 0.5rem;
+                }
+            }
+
+            p {
+                font-size: 1.2rem;
+                color: #333;
+                margin-bottom: 0.5rem;
+            }
+
+            span {
+                font-size: 1rem;
+                color: #666;
+                font-style: italic;
+            }
+
+            &[class*="Pre-University"] h3::before {
+                content: "🏫";
+            }
+
+            &[class*="Undergraduate"] h3::before {
+                content: "👨‍💻";
+            }
+
+            &[class*="Postgraduate"] h3::before {
+                content: "📚";
+            }
+
+            &[class*="Certification"] h3::before {
+                content: "🛠️";
+            }
+
+            &[class*="Training"] h3::before {
+                content: "💼";
+            }
+        }
+    }
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    padding: 27px;
+    background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+    color: #fff;
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    .project-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        max-width: 1300px;
+        margin: 0 auto;
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+
+            &:hover {
+                transform: translateY(-10px);
+                box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                color: #ffcc00;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 1rem;
+                color: #ddd;
+                margin-bottom: 15px;
+                line-height: 1.5;
+            }
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: #1e1e2f;
+                background: #ffcc00;
+                padding: 10px 15px;
+                border-radius: 8px;
+                font-weight: bold;
+                transition: background 0.3s ease-in-out;
+
+                &:hover {
+                    background: #e6b800;
+                }
+            }
+        }
+    }
+}
+
+/* Contact Form */
+.Sass #contact-form form {
+    max-width: 66em;
+    margin: 5rem auto;
+}
+
+.Sass #contact-form form .input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Sass #contact-form form fieldset legend {
+    margin-bottom: 2rem;
+}
+
+.Sass #contact-form form .input-box input,
+.Sass #contact-form form textarea {
+    width: 60%;
+    padding: 0.9em;
+    font-size: 13px;
+    color: black;
+    background: whitesmoke;
+    border-radius: 0.8em;
+    margin: 1rem 0;
+    resize: none;
+}
+
+.Sass #contact-form form .btn-1 {
+    margin: 1.1em;
+    left: 50%;
+    margin-left: 40%;
+    margin-bottom: 3em;
+}
+
+/* Footer */
+.Sass .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.Sass .footer .social {
+    text-align: center;
+    color: white;
+}
+
+.Sass .footer .social a {
+    font-size: 24px;
+    color: white;
+    border: 2px solid orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 11px;
+    box-shadow: inset 0 0 10px orangered, 0 0 10px orangered;
+    transition: 0.3s ease;
+}
+
+.Sass .social a:hover {
+    transform: scale(1.2)translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.Sass .footer h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+}
+
+.Sass .footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.Sass .footer .list strong {
+    border-bottom: 3px solid orangered;
+    padding-bottom: 2px;
+}
+
+.Sass .footer ul li a {
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.Sass .footer ul li a:hover {
+    border-bottom: 3px solid orangered;
+    text-decoration-color: #00ffea;
+    text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 15px #00ffea;
+}
+
+.Sass .footer ul li {
+    display: inline-block;
+    padding: 0 25px;
+    color: white;
+}
+
+.Sass .footer .copyright {
+    margin-top: 27px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .Sass .header {
+        padding: 15px 6%;
+    }
+
+    .Sass .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Sass header .navbar a {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    .Sass #home,
+    .Sass #about {
+        flex-direction: column;
+        gap: 4em;
+        padding: 20px 8%;
+    }
+
+    .Sass .contact{
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Sass .home-content,
+    .Sass .about-content {
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    .Sass .btn-1,
+    .Sass .btn-exp {
+        margin-left: 0;
+    }
+
+    .Sass .img-box img {
+        width: 250px;
+        height: 45vh;
+        margin-bottom: 2em;
+    }
+
+    .Sass .about-img img {
+        width: 250px;
+        height: 45vh;
+        margin-top: 3em;
+    }
+
+    .Sass .about-content {
+        margin-top: -1em;
+        margin-bottom: 4em;
+    }
+
+    .Sass .footer {
+        padding: 20px 5%;
+        text-align: center;
+    }
+
+    .Sass .footer ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .Sass .footer ul li {
+        padding: 0 10px;
+    }
+}
+
+/* Tablets and Smaller Laptops */
+@media (max-width: 992px) {
+    .Sass .header {
+        height: 10vh;
+        padding: 12px 5%;
+    }
+
+    .Sass .navbar {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .Sass .navbar a {
+        font-size: 14px;
+        margin: 0 8px;
+    }
+
+    .Sass .header {
+        padding: 15px 5%;
+    }
+
+    .Sass .home-content h3 {
+        font-size: 26px;
+    }
+
+    .Sass .home-content h1 {
+        font-size: 34px;
+    }
+
+    .Sass .home-content p {
+        font-size: 16px;
+    }
+
+    .Sass .btn-1,
+    .Sass .btn-exp {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .Sass .img-box img,
+    .Sass .about-img img {
+        width: 220px;
+        height: 40vh;
+    }
+
+    #education,
+    #projects {
+        padding: 2rem;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        .edu-list,
+        .project-list {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .Sass .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Sass .footer ul {
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Sass .footer ul li {
+        padding: 5px 0;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .Sass .header {
+        height: 8vh;
+        padding: 12px 5%;
+    }
+
+    .Sass .logo {
+        font-size: 20px;
+    }
+
+    .Sass .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .Sass header .navbar a {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .Sass .header {
+        height: 8vh;
+        padding: 12px 5%;
+    }
+
+    .Sass .logo {
+        font-size: 18px;
+    }
+
+    .Sass .home-content h3 {
+        font-size: 24px;
+    }
+
+    .Sass .home-content h1 {
+        font-size: 30px;
+    }
+
+    .Sass .home-content p,
+    .Sass #about .about-content p {
+        font-size: 18px;
+    }
+
+    .Sass .btn-1,
+    .Sass .btn-exp {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .Sass .img-box img,
+    .Sass .about-img img {
+        width: 200px;
+        height: 35vh;
+    }
+
+    .Sass #contact-form form .input-box input,
+    .Sass #contact-form form textarea {
+        width: 90%;
+    }
+
+    .Sass #contact-form form .btn-1 {
+        margin-left: 40%;
+    }
+
+    .Sass .footer {
+        padding: 15px;
+    }
+
+    .Sass .footer .social a {
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+/* Portrait Mode */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+
+    .Sass .header {
+        height: 35vh;
+    }
+
+    .Sass .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Sass .navbar a {
+        font-size: 14px;
+    }
+
+    .Sass .home-content h3 {
+        font-size: 22px;
+    }
+
+    .Sass .home-content h1 {
+        font-size: 28px;
+    }
+
+    .Sass .img-box img {
+        width: 180px;
+        height: 30vh;
+    }
+
+    #education,
+    #projects {
+        padding: 1.5rem;
+
+        h2 {
+            font-size: 1.6rem;
+        }
+    }
+
+    .Sass .footer {
+        padding: 12px;
+    }
+
+    .Sass .footer ul {
+        flex-direction: column;
+    }
+
+    .Sass .footer ul li {
+        padding: 4px 0;
+    }
+}
+
+/* Landscape Mode */
+@media screen and (max-width: 992px) and (orientation: landscape) {
+    .Sass .logo {
+        font-size: 1em;
+    }
+
+    .Sass .header {
+        height: 11vh;
+    }
+
+    .Sass .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Sass .navbar a {
+        font-size: 12px;
+        margin: 0 11px;
+    }
+
+    .Sass .contact {
+        height: 5vh;
+        width: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Sass .home-content h3 {
+        font-size: 26px;
+    }
+
+    .Sass .home-content h1 {
+        font-size: 34px;
+    }
+
+    .Sass .img-box img {
+        width: 250px;
+        height: 40vh;
+    }
+
+    .Sass .footer {
+        padding: 18px;
+    }
+
+    .Sass .footer ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* Large Screens (Ultra-wide monitors) */
+@media (min-width: 1400px) {
+    .Sass .navbar {
+        display: flex;
+        font-size: 1.2em;
+    }
+
+    .Sass #home,
+    .Sass #about {
+        padding: 3rem 10%;
+    }
+
+    .Sass .home-content h1 {
+        font-size: 45px;
+    }
+    .Sass #skills{
+        scroll-padding: 151px;
+    }
+    .Sass .btn-1 {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+}
+
+
+@media screen and (min-width:375px) and (max-width: 430px) and (orientation: portrait) {
+    .Sass .header {
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        position: fixed;
+    }
+
+    .Sass p {
+        text-align: justify;
+    }
+
+    .Sass .logo {
+        font-size: 1.2em;
+        margin-top: 0.5em;
+    }
+
+    .Sass .navbar .active {
+        font-size: 0.8em;
+        margin-left: -4.2em;
+    }
+
+    .Sass .navbar .nav-list {
+        position: absolute;
+        margin-left: 4em;
+        font-size: 0.9em;
+    }
+
+    .Sass .navbar .nav-list a {
+        margin-right: 0.8em;
+    }
+
+    .Sass .contact {
+        height: 3vh;
+        width: 22%;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+    }
+
+    .Sass #home {
+        margin-top: 4em;
+    }
+
+    .Sass #Skills {
+        padding-top: 0.1em;
+    }
+
+    .Sass #about {
+        padding-top: 3em;
+    }
+
+    .Sass #education {
+        padding-top: 5em;
+    }
+
+    .Sass #projects {
+        padding-top: 5em;
+    }
+
+    .Sass #contact-form {
+        padding-top: 0.1em;
+    }
+
+    .Sass #contact-from form fieldset .btn-1 {
+        margin-right: 4em;
+    }
+
+    .Sass .footer .list {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;
+    }
+
+    .Sass #contact-form form .btn-1 {
+        margin-left: 7em;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .Sass .header {
+        flex-direction: column;
+        height: 24vh;
+        position: fixed;
+    }
+
+    .Sass p {
+        text-align: justify;
+    }
+
+    .Sass .logo {
+        font-size: 1.2em;
+        margin-top: 0.5em;
+        margin-left: 2%;
+    }
+
+    .Sass .navbar .active {
+        font-size: 0.8em;
+        margin-left: -7.5em;
+    }
+
+    .Sass .navbar .nav-list {
+        position: absolute;
+        margin-left: 6.6em;
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+    .Sass .navbar .nav-list a {
+        font-size: 0.8em;
+    }
+    
+    .Sass .contact {
+        height: 5vh;
+        width: 25%;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+    }
+
+    .Sass #home {
+        margin-top: 4em;
+    }
+
+    .Sass #Skills {
+        padding-top: 0.1em;
+    }
+
+    .Sass #about {
+        padding-top: 3em;
+    }
+
+    .Sass #education {
+        padding-top: 5em;
+    }
+
+    .Sass #projects {
+        padding-top: 5em;
+    }
+
+    .Sass #contact-form {
+        padding-top: 0.1em;
+    }
+
+    .Sass #contact-from form fieldset .btn-1 {
+        margin-right: 4em;
+    }
+
+    .Sass .footer .list {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.7em;
+    }
+
+    .Sass #contact-form form .btn-1 {
+        margin-left: 7em;
+    }
+}
