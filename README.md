@@ -4,15 +4,16 @@ A responsive personal portfolio website built using React and SCSS, featuring sm
 
 ### 📸 Preview
 
-### Live Demo :  https://react-sample-ui-portfolio.netlify.app 
+### Live :  https://react-sample-ui-portfolio.netlify.app 
+
 ---
 
 ## 📌 Project Overview
 
-This project is a personal **React-based portfolio website** created as a practice project to improve frontend development skills.  
-It showcases my skills, projects, education, and contact details in a clean and interactive way.
+- This project is a personal **React-based portfolio website** created as a practice project to improve frontend development skills.  
+- It showcases my skills, projects, education, and contact details in a clean and interactive way.
 
-The website includes smooth scroll-based animations using **GSAP ScrollTrigger** and is fully responsive across desktops, tablets, and mobile devices.
+- The website includes smooth scroll-based animations using **GSAP ScrollTrigger** and is fully responsive across desktops, tablets, and mobile devices.
 
 ---
 
@@ -51,7 +52,7 @@ The website includes smooth scroll-based animations using **GSAP ScrollTrigger**
 
 ---
 
-## 📬 Contact
+## ⭐ Author & 📬 Contact
 
 **Name:** Lokesh K
 
