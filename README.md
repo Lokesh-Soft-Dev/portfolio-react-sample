@@ -1,10 +1,10 @@
-# React Portfolio Website
+## React Portfolio Website
 
 A responsive personal portfolio website built using React and SCSS, featuring smooth GSAP animations and a modern user interface.
 
-## 📸 Preview
+### 📸 Preview
 
-Live Demo :   
+### Live Demo :  https://react-sample-ui-portfolio.netlify.app 
 ---
 
 ## 📌 Project Overview
